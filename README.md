@@ -150,3 +150,6 @@ IA aplicada / Automação      ████████████░░░░
 <div align="center">
   <sub>Transformando dados em decisões — com rigor estatístico, engenharia e clareza.</sub>
 </div>
+
+<!-- profile -->
+
