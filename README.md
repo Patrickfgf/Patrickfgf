@@ -24,7 +24,7 @@
 
 <div align="center">
 
-Estudante de Economia no **IDP** em transição para **Data Science & Analytics**. Combino formação quantitativa com prática real de dados em decisões de negócio. Tenho dois projetos **flagship públicos com demo ao vivo** — um de *Data Science / Estatística* (precificação hedônica) e um de *Data Engineering* (pipeline event-driven em produção).
+Estudante de Economia no **IDP** em transição para **Data Science & Analytics**. Combino formação quantitativa com prática real de dados em decisões de negócio. Tenho dois projetos **flagship públicos com demo ao vivo** — um de *Data Science / Estatística* (precificação hedônica) e um de *Data Engineering* (pipeline event-driven entregue como freelance).
 
 **Em busca de estágio ou posição júnior em Ciência, Análise ou Engenharia de Dados.**
 
