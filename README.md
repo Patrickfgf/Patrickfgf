@@ -16,7 +16,7 @@
   </a>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=70A5FD&center=true&vCenter=true&repeat=true&width=980&lines=Data+Science+%E2%80%A2+Analytics+%E2%80%A2+Data+Engineering;Python+%E2%80%A2+SQL+%E2%80%A2+DuckDB+%E2%80%A2+pandas+%E2%80%A2+scikit-learn;Pipelines+de+dados+em+producao+%E2%80%A2+FastAPI+%E2%80%A2+Streamlit;Modelagem+estatistica+%E2%80%A2+ML+%E2%80%A2+regressao+hedonica" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=70A5FD&center=true&vCenter=true&repeat=true&width=980&lines=Data+Science+%E2%80%A2+Analytics+%E2%80%A2+Data+Engineering;Python+%E2%80%A2+SQL+%E2%80%A2+DuckDB+%E2%80%A2+pandas+%E2%80%A2+scikit-learn;Pipelines+de+dados+event-driven+%E2%80%A2+FastAPI+%E2%80%A2+Streamlit;Modelagem+estatistica+%E2%80%A2+ML+%E2%80%A2+regressao+hedonica" />
 
 </div>
 
@@ -26,7 +26,7 @@
 
 Estudante de Economia no **IDP** em transição para **Data Science & Analytics**. Combino formação quantitativa com prática real de dados em decisões de negócio. Tenho dois projetos **flagship públicos com demo ao vivo** — um de *Data Science / Estatística* (precificação hedônica) e um de *Data Engineering* (pipeline event-driven entregue como freelance).
 
-**Em busca de estágio ou posição júnior em Ciência, Análise ou Engenharia de Dados.**
+**Em busca de posição júnior em Ciência, Análise ou Engenharia de Dados.**
 
 🌐 Português (nativo) · Inglês **C1** (Cambridge CAE) · Espanhol (intermediário)
 
