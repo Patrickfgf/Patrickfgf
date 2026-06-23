@@ -2,13 +2,13 @@
 
 # Patrick Fernandes Godinho Filho
 
-### Cientista de Dados • Data Analyst • Data Engineer • Python • SQL
+### Analista de Dados · Data Engineer · Data Scientist · Python · SQL
 
 <p>
   <a href="https://github.com/Patrickfgf">
     <img src="https://img.shields.io/badge/GitHub-Patrickfgf-1a1b27?style=for-the-badge&logo=github&logoColor=70a5fd"/>
   </a>
-  <a href="https://www.linkedin.com/in/patrick-fernandes-462bb0203/">
+  <a href="https://www.linkedin.com/in/patrick-fernandes-godinho/">
     <img src="https://img.shields.io/badge/LinkedIn-Patrick%20Fernandes-1a1b27?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iJTIzNzBhNWZkIj48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjI1IDB6Ii8+PC9zdmc+"/>
   </a>
   <a href="mailto:patrickfgf@gmail.com">
@@ -24,9 +24,9 @@
 
 <div align="center">
 
-Estudante de Economia no **IDP** em transição para **Data Science & Analytics**. Combino formação quantitativa com prática real de dados em decisões de negócio. Tenho dois projetos **flagship públicos com demo ao vivo** — um de *Data Science / Estatística* (precificação hedônica) e um de *Data Engineering* (pipeline event-driven entregue como freelance).
+Estudante de Economia no **IDP**, atuando com dados nas três frentes — **Análise, Engenharia e Ciência de Dados**. Combino formação quantitativa com prática real de dados em decisões de negócio. Tenho **três projetos públicos com demo ao vivo** — *Data Science / Estatística* (precificação hedônica), *Data Engineering* (pipeline event-driven) e *Full-Stack / Otimização* (TripOptimizer).
 
-**Em busca de posição júnior em Ciência, Análise ou Engenharia de Dados.**
+**Em busca de posição júnior como Analista de Dados — Análise, Engenharia ou Ciência de Dados.**
 
 🌐 Português (nativo) · Inglês **C1** (Cambridge CAE) · Espanhol (intermediário)
 
@@ -119,6 +119,7 @@ IA aplicada / Automação      ████████████░░░░
 
 - **[rio-airbnb-pricing-lab](https://github.com/Patrickfgf/rio-airbnb-pricing-lab)** — ⭐ flagship de **Data Science / Estatística**. Advisor de *price positioning* para anfitriões de Airbnb no Rio sobre dados abertos do Inside Airbnb (39.816 anúncios): regressão hedônica OLS com *neighbourhood fixed effects*, Duan's smearing e shrinkage empirical-Bayes. Diagnostiquei o objetivo original (maximizar RevPAN) como **não-identificável** e re-escopei o produto — julgamento de modelagem acima de força bruta. Validado contra meus **dados reais como Superhost**. 104 testes / ~96% cobertura. · [🔴 Demo ao vivo](https://rio-airbnb-pricing-lab-project.streamlit.app/) · [📓 Docs](https://patrickfgf.github.io/rio-airbnb-pricing-lab/)
 - **[real-estate-lead-pipeline](https://github.com/Patrickfgf/real-estate-lead-pipeline)** — ⭐ flagship de **Data Engineering**. Pipeline event-driven que ingere leads de 2 portais imobiliários por webhook, valida (Pydantic), deduplica + faz entity resolution e enriquece em DuckDB/pandas (raw→curated), aplica lead scoring e entrega no Trello + dashboard Streamlit. 60 testes, CI em 3 versões de Python. · [🔴 Demo ao vivo](https://real-estate-lead-pipeline-7jjxw8u3fnlwrzk63prwxq.streamlit.app/)
+- **[TripOptimizer](https://github.com/Patrickfgf/TripOptimizer)** — ⭐ flagship de **Full-Stack + Otimização/DS**. Otimizador de roteiros multi-cidade que acha a **ordem mais barata** de visitar um conjunto de cidades de avião (não voos isolados), deslizando a janela de datas. Modelado como TSP de custo dependente de data e resolvido com **Held-Karp DP exato** O(2ⁿ·n²) + brute-force como **oráculo de teste**; ingestão idempotente raw→curated (snapshot Parquet/DuckDB) e fallback sintético com proveniência por trecho. Python/FastAPI/DuckDB + React 18/TS/Vite, 95 testes (~99% / 96,8% cobertura), CI/CD e deploy Render+Vercel. Nasceu de uma dor real no meu **intercâmbio em Coimbra** (15 países). · [🔴 Demo ao vivo](https://tripoptimizer-rouge.vercel.app)
 - **[weather-trend-forecasting](https://github.com/Patrickfgf/weather-trend-forecasting)** — Previsão de temperatura *leakage-safe* sobre o Kaggle Global Weather Repository: EDA, detecção de anomalias e ensemble multi-modelo.
 - **[retail-sales-analysis](https://github.com/Patrickfgf/retail-sales-analysis)** · **[ds-salaries-regression](https://github.com/Patrickfgf/ds-salaries-regression)** · **[titanic-analysis](https://github.com/Patrickfgf/titanic-analysis)** — base de ML aplicada (clustering, regressão, classificação).
 
