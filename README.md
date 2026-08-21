@@ -128,12 +128,12 @@ IA aplicada / Automação      ████████████░░░░
 ## Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Patrickfgf&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Patrickfgf&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="195" src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/cards/stats.svg" alt="Estatisticas do GitHub" />
+  <img height="195" src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/cards/top-langs.svg" alt="Linguagens mais usadas" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Patrickfgf&theme=tokyonight&hide_border=true" />
+  <img src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/cards/streak.svg" alt="Streak de commits" />
 </div>
 
 <div align="center">
