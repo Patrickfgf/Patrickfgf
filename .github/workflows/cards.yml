@@ -39,6 +39,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Seed dist with the currently published cards
+        # The publish step force-pushes the whole build_dir, so any card that fails to
+        # regenerate must already be in dist/ -- otherwise the force push deletes it
+        # from the branch and the profile shows a 404 instead of a stale-but-valid card.
+        run: |
+          mkdir -p dist
+          git fetch origin cards --depth=1 2>/dev/null || exit 0
+          for card in stats.svg top-langs.svg streak.svg; do
+            git show "origin/cards:$card" > "dist/$card" 2>/dev/null || rm -f "dist/$card"
+          done
+          ls -la dist
+
       - name: Generate cards
         env:
           # CARDS_TOKEN is a PAT with `repo` + `read:user`. Without it the run falls back

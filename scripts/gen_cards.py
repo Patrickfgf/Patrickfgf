@@ -68,8 +68,39 @@ def graphql(query: str, token: str, variables: dict | None = None) -> dict:
     return body["data"]
 
 
+def assert_sees_private_repos(login: str, token: str) -> None:
+    """Fail loudly when the token cannot see the account's private repositories.
+
+    contributionsCollection is public when the profile exposes private contributions,
+    so commit counts come out right even with a scope-less token. Repository and
+    language counts do not: they silently narrow to the public subset, producing a
+    plausible number for the wrong universe. Better to keep the previous card than to
+    publish "8 repositories" when there are 18.
+    """
+    counts = graphql(
+        """
+        query($login: String!) {
+          user(login: $login) {
+            all: repositories(ownerAffiliations: OWNER, isFork: false) { totalCount }
+            private: repositories(ownerAffiliations: OWNER, isFork: false, privacy: PRIVATE) {
+              totalCount
+            }
+          }
+        }
+        """,
+        token,
+        {"login": login},
+    )["user"]
+    if counts["private"]["totalCount"] == 0 and counts["all"]["totalCount"] > 0:
+        raise CardError(
+            "token cannot see private repositories -- set CARDS_TOKEN to a PAT with "
+            "`repo` scope, or this card would describe the public subset only"
+        )
+
+
 def collect_stats(login: str, token: str) -> Stats:
     """Aggregate lifetime counters, including contributions in private repos."""
+    assert_sees_private_repos(login, token)
     profile = graphql(
         """
         query($login: String!) {
@@ -114,15 +145,6 @@ def collect_stats(login: str, token: str) -> Stats:
         private += window["restrictedContributionsCount"]
 
     total_commits = commits + private
-    if private == 0:
-        # Not proof of a bad token (an account can genuinely have no private work),
-        # but with private repos present it means the token lacks `repo` scope and
-        # every counter below is drawn from the public third of the account only.
-        print(
-            "  WARNING: no private contributions visible -- if CARDS_TOKEN is unset or "
-            "lacks `repo` scope, these counts cover public activity only",
-            file=sys.stderr,
-        )
     return Stats(
         contributions=contributions,
         commits=total_commits,
@@ -135,6 +157,7 @@ def collect_stats(login: str, token: str) -> Stats:
 
 def collect_languages(login: str, token: str, limit: int = 8) -> list[tuple[str, str, float]]:
     """Return [(name, colour, share)] by bytes across all owned non-fork repos."""
+    assert_sees_private_repos(login, token)
     data = graphql(
         """
         query($login: String!) {
