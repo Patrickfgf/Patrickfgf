@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="195" viewBox="0 0 420 195" role="img" aria-label="Estatísticas de Patrickfgf">
+  <style>
+    .title { font: 600 18px 'Segoe UI', Ubuntu, sans-serif; fill: #70a5fd; }
+    .label { font: 400 14px 'Segoe UI', Ubuntu, sans-serif; fill: #38bdae; }
+    .value { font: 600 14px 'Segoe UI', Ubuntu, sans-serif; fill: #38bdae; }
+    .note  { font: 400 11px 'Segoe UI', Ubuntu, sans-serif; fill: #565f89; }
+  </style>
+  <rect width="420" height="195" rx="6" fill="#1a1b27"/>
+  <text x="25" y="40" class="title">Estatísticas de Patrickfgf</text>
+  <circle cx="34" cy="70" r="3.5" fill="#bf91f3"/><text x="50" y="74" class="label">Contribuições</text><text x="395" y="74" class="value" text-anchor="end">690</text><circle cx="34" cy="91" r="3.5" fill="#bf91f3"/><text x="50" y="95" class="label">Commits</text><text x="395" y="95" class="value" text-anchor="end">655</text><circle cx="34" cy="112" r="3.5" fill="#bf91f3"/><text x="50" y="116" class="label">Pull Requests</text><text x="395" y="116" class="value" text-anchor="end">27</text><circle cx="34" cy="133" r="3.5" fill="#bf91f3"/><text x="50" y="137" class="label">Repositórios</text><text x="395" y="137" class="value" text-anchor="end">18</text><circle cx="34" cy="154" r="3.5" fill="#bf91f3"/><text x="50" y="158" class="label">Seguidores</text><text x="395" y="158" class="value" text-anchor="end">2</text>
+  <text x="25" y="179" class="note">65% em repositórios privados &#183; atualizado diariamente</text>
+</svg>
