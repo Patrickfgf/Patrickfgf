@@ -16,7 +16,7 @@
 
 Analista de Dados na área de Infraestrutura da **CNI** (Confederação Nacional da Indústria), com atuação ponta a ponta em **Análise, Engenharia e Ciência de Dados**: da coleta via APIs e fontes públicas ao ETL em Python e SQL, e daí a relatórios, dashboards e modelos que viram base de decisão. Construo pipelines com testes automatizados, CI/CD e controle de qualidade de dados.
 
-Aberto a oportunidades em Dados: Análise, Engenharia ou Ciência.
+Aberto a oportunidades em Dados (Análise, Engenharia ou Ciência), Backend e Full-Stack.
 
 ## Experiência
 
@@ -89,7 +89,7 @@ Previsão de temperatura diária por cidade, 7 dias à frente, sobre o Global We
 - **Dados e análise:** Python (pandas, Polars, NumPy) · SQL · PostgreSQL · DuckDB · Parquet · Excel avançado · Power BI (PL-300 em preparação) · Streamlit · Plotly · matplotlib · seaborn
 - **Engenharia de dados:** ETL/ELT em camadas (raw → curated) · webhooks e APIs REST (FastAPI) · integração de APIs com OAuth 2.0 · Pydantic · pandera · dados geoespaciais (DuckDB Spatial, Shapely) · Docker · GitHub Actions · pytest · Ruff · uv · Git
 - **Ciência de dados e estatística:** scikit-learn · statsmodels · XGBoost · LightGBM · SHAP · séries temporais · regressão hedônica e econometria · detecção de anomalias
-- **Web e cloud (apoio):** TypeScript · React · Astro · Cloudflare · Google Cloud (APIs) · Fly.io · Render · Vercel
+- **Web e cloud:** TypeScript · React · Astro · Cloudflare · Google Cloud (APIs) · Fly.io · Render · Vercel
 - **Em estudo:** Airflow · AWS
 
 ## Formação e certificações
@@ -104,7 +104,7 @@ Previsão de temperatura diária por cidade, 7 dias à frente, sobre o Global We
 <summary><b>English summary</b></summary>
 <br>
 
-Data Analyst on the Infrastructure team at CNI (Brazil's National Confederation of Industry), working end to end across data analysis, data engineering and data science: API and public-source ingestion, Python and SQL ETL pipelines (DuckDB, Polars, Parquet), statistical modeling and automated reporting, backed by automated tests and CI/CD. Previously Data Engineer at Eldorado Imobiliária, a real-estate agency in Brasília, where I built an event-driven lead pipeline with FastAPI and DuckDB. B.Sc. in Economics (final semester, quantitative track) and B.Sc. in Software Engineering (in progress) at IDP, with an exchange program at the University of Coimbra. English C1 (Cambridge CAE). Based in Brasília, open to Data roles, remote or hybrid, as an employee or contractor.
+Data Analyst on the Infrastructure team at CNI (Brazil's National Confederation of Industry), working end to end across data analysis, data engineering and data science: API and public-source ingestion, Python and SQL ETL pipelines (DuckDB, Polars, Parquet), statistical modeling and automated reporting, backed by automated tests and CI/CD. Previously Data Engineer at Eldorado Imobiliária, a real-estate agency in Brasília, where I built an event-driven lead pipeline with FastAPI and DuckDB. B.Sc. in Economics (final semester, quantitative track) and B.Sc. in Software Engineering (in progress) at IDP, with an exchange program at the University of Coimbra. English C1 (Cambridge CAE). Based in Brasília, open to Data, Backend and Full-Stack roles, remote or hybrid, as an employee or contractor.
 
 Contact: patrickfgf@gmail.com · [LinkedIn](https://www.linkedin.com/in/patrick-fernandes-godinho/)
 
