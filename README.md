@@ -1,156 +1,125 @@
-<div align="center">
+<h1 align="center">Patrick Fernandes Godinho Filho</h1>
 
-# Patrick Fernandes Godinho Filho
-
-### Analista de Dados · Data Engineer · Data Scientist · Python · SQL
-
-<p>
-  <a href="https://github.com/Patrickfgf">
-    <img src="https://img.shields.io/badge/GitHub-Patrickfgf-1a1b27?style=for-the-badge&logo=github&logoColor=70a5fd"/>
-  </a>
-  <a href="https://www.linkedin.com/in/patrick-fernandes-godinho/">
-    <img src="https://img.shields.io/badge/LinkedIn-Patrick%20Fernandes-1a1b27?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iJTIzNzBhNWZkIj48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjI1IDB6Ii8+PC9zdmc+"/>
-  </a>
-  <a href="mailto:patrickfgf@gmail.com">
-    <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=70a5fd"/>
-  </a>
+<p align="center">
+  <b>Analista de Dados · Cientista de Dados · Engenheiro de Dados</b><br>
+  Python · SQL · ETL · DuckDB · Machine Learning
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=70A5FD&center=true&vCenter=true&repeat=true&width=980&lines=Data+Science+%E2%80%A2+Analytics+%E2%80%A2+Data+Engineering;Python+%E2%80%A2+SQL+%E2%80%A2+DuckDB+%E2%80%A2+pandas+%E2%80%A2+scikit-learn;Pipelines+de+dados+event-driven+%E2%80%A2+FastAPI+%E2%80%A2+Streamlit;Modelagem+estatistica+%E2%80%A2+ML+%E2%80%A2+regressao+hedonica" />
+<p align="center">
+  <a href="https://www.linkedin.com/in/patrick-fernandes-godinho/"><img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iJTIzNzBhNWZkIj48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjI1IDB6Ii8+PC9zdmc+" alt="LinkedIn"></a>
+  <a href="mailto:patrickfgf@gmail.com"><img src="https://img.shields.io/badge/patrickfgf%40gmail.com-1a1b27?style=flat-square&logo=gmail&logoColor=70a5fd" alt="E-mail: patrickfgf@gmail.com"></a>
+</p>
 
-</div>
-
----
-
-<div align="center">
-
-Estudante de Economia no **IDP**, atuando com dados nas três frentes — **Análise, Engenharia e Ciência de Dados**. Combino formação quantitativa com prática real de dados em decisões de negócio. Tenho **três projetos públicos com demo ao vivo** — *Data Science / Estatística* (precificação hedônica), *Data Engineering* (pipeline event-driven) e *Full-Stack / Otimização* (TripOptimizer).
-
-**Em busca de posição júnior como Analista de Dados — Análise, Engenharia ou Ciência de Dados.**
-
-🌐 Português (nativo) · Inglês **C1** (Cambridge CAE) · Espanhol (intermediário)
-
-</div>
+<p align="center">Brasília-DF · remoto ou híbrido · CLT ou PJ</p>
 
 ---
+
+Analista de Dados na área de Infraestrutura da **CNI** (Confederação Nacional da Indústria), com atuação ponta a ponta em **Análise, Engenharia e Ciência de Dados**: da coleta via APIs e fontes públicas ao ETL em Python e SQL, e daí a relatórios, dashboards e modelos que viram base de decisão. Construo pipelines com testes automatizados, CI/CD e controle de qualidade de dados.
+
+Aberto a oportunidades em Dados: Análise, Engenharia ou Ciência.
+
+## Experiência
+
+**Analista de Dados** · CNI, Confederação Nacional da Indústria (Infraestrutura)<br>
+<sub>Brasília-DF · presencial · Atual</sub><br>
+Automação da coleta e do tratamento de bases públicas de infraestrutura (energia elétrica, petróleo e combustíveis, telecomunicações, transportes e logística, rodovias, aviação, mineração e agropecuária), pipelines ETL com validação de esquema e execução idempotente, SQL (DuckDB) e Polars sobre Parquet e análises geoespaciais (DuckDB Spatial, Shapely). Estudos de priorização de investimentos em rodovias federais, auditoria de qualidade de dados contra fontes primárias (API SIDRA do IBGE) e geração automatizada de boletins, notas técnicas e relatórios em PDF.
+
+**Desenvolvedor Full-Stack** · Caminho Canadá MD<br>
+<sub>Remoto · 05/2026 – Atual</sub><br>
+Desenvolvedor único do produto digital de um curso online para médicos: aplicação web em Astro e TypeScript no Cloudflare Pages, com captura de leads (validação, proteção anti-bot, LGPD), automação de métricas de marketing via APIs do GA4, da Meta e do Instagram com OAuth 2.0 e relatórios em Python, pipeline de transcrição das videoaulas e CI/CD com GitHub Actions.
+
+**Engenheiro de Dados** · Eldorado Imobiliária<br>
+<sub>Remoto · 01/2026 – 07/2026</sub><br>
+Construí e mantive a estrutura de dados de uma imobiliária com mais de 25 anos de mercado em Brasília: pipeline event-driven em Python e FastAPI que recebia os leads dos portais por webhook, contratos de dados com Pydantic, DuckDB em camadas (raw → curated), deduplicação e entity resolution, lead scoring com roteamento ao CRM (Trello API) e dashboards em Streamlit, com Docker e deploy no Fly.io.
+
+**Desenvolvedor Web** · clínica de ortopedia e traumatologia<br>
+<sub>Remoto · 10/2025 – 12/2025</sub><br>
+Site institucional em Astro e TypeScript no Cloudflare Pages (SEO técnico, GA4 condicionado a consentimento, adequação à LGPD) e automação em Python que extraía dados de documentos escaneados e gerava o relatório antes compilado à mão.
+
+## Projetos
+
+### Rio Airbnb Pricing Lab
+[Demo ao vivo](https://rio-airbnb-pricing-lab-project.streamlit.app/) · [Documentação](https://patrickfgf.github.io/rio-airbnb-pricing-lab/) · [Código](https://github.com/Patrickfgf/rio-airbnb-pricing-lab)
+
+Recomenda uma faixa de preço para anfitriões do Airbnb no Rio de Janeiro, com dados abertos do Inside Airbnb. Combina regressão hedônica com efeitos fixos de bairro e comparação com anúncios semelhantes, sobre um pipeline reprodutível DuckDB → Parquet com contratos de dados (pandera), testes automatizados, CI e dashboard em Streamlit.
+
+O objetivo original, maximizar RevPAN, se mostrou **não identificável** nos dados: documentei o diagnóstico e re-escopei o produto para posicionamento de preço.
+
+### Real Estate Lead Pipeline
+[Demo ao vivo](https://real-estate-lead-pipeline-7jjxw8u3fnlwrzk63prwxq.streamlit.app/) · [Código](https://github.com/Patrickfgf/real-estate-lead-pipeline)
+
+Versão pública e anonimizada, com dados sintéticos, do pipeline de leads que construí na Eldorado Imobiliária: webhooks em FastAPI, validação com Pydantic e fila de revisão para payloads inválidos, deduplicação e entity resolution, camadas raw → curated em DuckDB, lead scoring, criação automática do card no Trello e dashboard de funil em Streamlit. Docker, testes automatizados e CI.
+
+### TripOptimizer
+[Demo ao vivo](https://tripoptimizer-rouge.vercel.app) · código privado<br>
+<sub>A API hiberna quando fica ociosa: o primeiro acesso pode levar de 30 a 60 s.</sub>
+
+Encontra a ordem de visita mais barata para uma viagem de avião por várias cidades, dentro de uma janela de datas flexível. Modelado como problema do caixeiro viajante (TSP) com custo dependente da data; o repositório implementa o algoritmo exato Held-Karp (programação dinâmica), validado contra força bruta como oráculo de teste. Tarifas reais via API com cache em PostgreSQL, FastAPI e React com TypeScript, testes automatizados no back-end e no front-end, CI/CD e deploy em Render e Vercel.
+
+Nasceu do meu intercâmbio em Coimbra, quando viajei por 15 países.
+
+### Weather Trend Forecasting
+[Código](https://github.com/Patrickfgf/weather-trend-forecasting)
+
+Previsão de temperatura diária por cidade, 7 dias à frente, sobre o Global Weather Repository (Kaggle), com backtest temporal sem vazamento de dados. Compara modelos estatísticos por cidade (SARIMAX, Holt-Winters) com um modelo global em painel (XGBoost, LightGBM) e os combina em ensemble; inclui detecção de anomalias (Isolation Forest, LOF, STL), explicabilidade com SHAP e testes que barram vazamento.
+
+## Como eu trabalho
+
+- Contratos de dados na entrada (Pydantic, pandera) e pipelines idempotentes em camadas, do dado cru ao curado.
+- Parquet como formato intermediário; DuckDB e Polars quando o volume pede.
+- Testes automatizados e CI como parte da entrega; em modelagem, validação temporal sem vazamento e baseline simples antes do modelo complexo.
+- IA como alavanca de engenharia: desenvolvo com Claude Code como par de programação e aplico LLMs à automação de processos.
 
 ## Stack
 
-<h3 align="center">📊 Data Science & Machine Learning</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/pandas-1a1b27?style=for-the-badge&logo=pandas&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/NumPy-1a1b27?style=for-the-badge&logo=numpy&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/scikit--learn-1a1b27?style=for-the-badge&logo=scikitlearn&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/SciPy-1a1b27?style=for-the-badge&logo=scipy&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/statsmodels-1a1b27?style=for-the-badge&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Jupyter-1a1b27?style=for-the-badge&logo=jupyter&logoColor=70a5fd"/>
-</p>
-
-<h3 align="center">🗄️ Data Engineering & Bancos de Dados</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/DuckDB-1a1b27?style=for-the-badge&logo=duckdb&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Parquet-1a1b27?style=for-the-badge&logo=apacheparquet&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/FastAPI-1a1b27?style=for-the-badge&logo=fastapi&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Pydantic-1a1b27?style=for-the-badge&logo=pydantic&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/pandera-1a1b27?style=for-the-badge&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/Python-1a1b27?style=flat-square&logo=python&logoColor=70a5fd" alt="Python">
+  <img src="https://img.shields.io/badge/PostgreSQL-1a1b27?style=flat-square&logo=postgresql&logoColor=70a5fd" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/DuckDB-1a1b27?style=flat-square&logo=duckdb&logoColor=70a5fd" alt="DuckDB">
+  <img src="https://img.shields.io/badge/Polars-1a1b27?style=flat-square&logo=polars&logoColor=70a5fd" alt="Polars">
+  <img src="https://img.shields.io/badge/pandas-1a1b27?style=flat-square&logo=pandas&logoColor=70a5fd" alt="pandas">
+  <img src="https://img.shields.io/badge/Parquet-1a1b27?style=flat-square&logo=apacheparquet&logoColor=70a5fd" alt="Parquet">
+  <img src="https://img.shields.io/badge/FastAPI-1a1b27?style=flat-square&logo=fastapi&logoColor=70a5fd" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Docker-1a1b27?style=flat-square&logo=docker&logoColor=70a5fd" alt="Docker">
+  <img src="https://img.shields.io/badge/GitHub_Actions-1a1b27?style=flat-square&logo=githubactions&logoColor=70a5fd" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/scikit--learn-1a1b27?style=flat-square&logo=scikitlearn&logoColor=70a5fd" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/Streamlit-1a1b27?style=flat-square&logo=streamlit&logoColor=70a5fd" alt="Streamlit">
 </p>
 
-<h3 align="center">📈 Analytics & Visualização</h3>
+- **Dados e análise:** Python (pandas, Polars, NumPy) · SQL · PostgreSQL · DuckDB · Parquet · Excel avançado · Power BI (PL-300 em preparação) · Streamlit · Plotly · matplotlib · seaborn
+- **Engenharia de dados:** ETL/ELT em camadas (raw → curated) · webhooks e APIs REST (FastAPI) · integração de APIs com OAuth 2.0 · Pydantic · pandera · dados geoespaciais (DuckDB Spatial, Shapely) · Docker · GitHub Actions · pytest · Ruff · uv · Git
+- **Ciência de dados e estatística:** scikit-learn · statsmodels · XGBoost · LightGBM · SHAP · séries temporais · regressão hedônica e econometria · detecção de anomalias
+- **Web e cloud (apoio):** TypeScript · React · Astro · Cloudflare · Google Cloud (APIs) · Fly.io · Render · Vercel
+- **Em estudo:** Airflow · AWS
+
+## Formação e certificações
+
+- **Economia**, IDP: último semestre, conclusão em 12/2026, ênfase quantitativa (econometria e estatística)
+- **Engenharia de Software**, IDP: em andamento
+- **Intercâmbio**, Universidade de Coimbra, Portugal (2025–2026)
+- **Certificação:** Cambridge C1 Advanced (CAE, 2021) · **em preparação:** AWS Data Engineer Associate (DEA-C01), AWS Cloud Practitioner (CLF-C02) e Microsoft Power BI Data Analyst (PL-300)
+- **Idiomas:** português nativo · inglês C1 · espanhol intermediário
+
+<details>
+<summary><b>English summary</b></summary>
+<br>
+
+Data Analyst on the Infrastructure team at CNI (Brazil's National Confederation of Industry), working end to end across data analysis, data engineering and data science: API and public-source ingestion, Python and SQL ETL pipelines (DuckDB, Polars, Parquet), statistical modeling and automated reporting, backed by automated tests and CI/CD. Previously Data Engineer at Eldorado Imobiliária, a real-estate agency in Brasília, where I built an event-driven lead pipeline with FastAPI and DuckDB. B.Sc. in Economics (final semester, quantitative track) and B.Sc. in Software Engineering (in progress) at IDP, with an exchange program at the University of Coimbra. English C1 (Cambridge CAE). Based in Brasília, open to Data roles, remote or hybrid, as an employee or contractor.
+
+Contact: patrickfgf@gmail.com · [LinkedIn](https://www.linkedin.com/in/patrick-fernandes-godinho/)
+
+</details>
+
+<details>
+<summary><b>Atividade no GitHub</b> (inclui contribuições em repositórios privados)</summary>
+<br>
 <p align="center">
-  <img src="https://img.shields.io/badge/Streamlit-1a1b27?style=for-the-badge&logo=streamlit&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Plotly-1a1b27?style=for-the-badge&logo=plotly&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Power_BI-1a1b27?style=for-the-badge&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Matplotlib-1a1b27?style=for-the-badge&logo=python&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Seaborn-1a1b27?style=for-the-badge&logo=python&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Excel-1a1b27?style=for-the-badge&logoColor=70a5fd"/>
+  <img src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/cards/stats.svg" alt="Estatísticas de contribuição no GitHub" width="44%">
+  <img src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/cards/streak.svg" alt="Sequência de contribuições no GitHub" width="52%">
 </p>
+<p align="center"><sub>Cards gerados diariamente por uma GitHub Action própria. Boa parte do meu trabalho fica em repositórios privados.</sub></p>
+</details>
 
-<h3 align="center">🤖 IA aplicada & Automação</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Anthropic_Claude-1a1b27?style=for-the-badge&logo=anthropic&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Claude_Code-1a1b27?style=for-the-badge&logo=anthropic&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/MCP-1a1b27?style=for-the-badge&logo=modelcontextprotocol&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/ChatGPT-1a1b27?style=for-the-badge&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Prompt_Engineering-1a1b27?style=for-the-badge&logoColor=70a5fd"/>
+  <img src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/output/github-contribution-grid-snake-dark.svg" alt="Animação sobre o gráfico de contribuições no GitHub" width="100%">
 </p>
-
-<h3 align="center">💻 Linguagens & Ferramentas</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,ts,js,bash,git,github,githubactions,vscode,linux,postman,notion,latex,md" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/SQL-1a1b27?style=for-the-badge&logo=postgresql&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/pytest-1a1b27?style=for-the-badge&logo=pytest&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/Ruff-1a1b27?style=for-the-badge&logo=ruff&logoColor=70a5fd"/>
-  <img src="https://img.shields.io/badge/uv-1a1b27?style=for-the-badge&logo=astral&logoColor=70a5fd"/>
-</p>
-
-<h3 align="center">🌐 Web (apoio)</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,supabase,vercel" />
-</p>
-
----
-
-## Foco
-
-<div align="center">
-
-```text
-Data Science / Estatística   ███████████████░
-Data Analysis / Visualização ██████████████░░
-Data Engineering / ETL       █████████████░░░
-Python / SQL                 ███████████████░
-Machine Learning             ████████████░░░░
-IA aplicada / Automação      ████████████░░░░
-```
-
-</div>
-
----
-
-## Projetos em destaque
-
-- **[rio-airbnb-pricing-lab](https://github.com/Patrickfgf/rio-airbnb-pricing-lab)** — ⭐ flagship de **Data Science / Estatística**. Advisor de *price positioning* para anfitriões de Airbnb no Rio sobre dados abertos do Inside Airbnb (39.816 anúncios): regressão hedônica OLS com *neighbourhood fixed effects*, Duan's smearing e shrinkage empirical-Bayes. Diagnostiquei o objetivo original (maximizar RevPAN) como **não-identificável** e re-escopei o produto — julgamento de modelagem acima de força bruta. Validado contra meus **dados reais como Superhost**. 104 testes / ~96% cobertura. · [🔴 Demo ao vivo](https://rio-airbnb-pricing-lab-project.streamlit.app/) · [📓 Docs](https://patrickfgf.github.io/rio-airbnb-pricing-lab/)
-- **[real-estate-lead-pipeline](https://github.com/Patrickfgf/real-estate-lead-pipeline)** — ⭐ flagship de **Data Engineering**. Pipeline event-driven que ingere leads de 2 portais imobiliários por webhook, valida (Pydantic), deduplica + faz entity resolution e enriquece em DuckDB/pandas (raw→curated), aplica lead scoring e entrega no Trello + dashboard Streamlit. 60 testes, CI em 3 versões de Python. · [🔴 Demo ao vivo](https://real-estate-lead-pipeline-7jjxw8u3fnlwrzk63prwxq.streamlit.app/)
-- **[TripOptimizer](https://github.com/Patrickfgf/TripOptimizer)** — ⭐ flagship de **Full-Stack + Otimização/DS**. Otimizador de roteiros multi-cidade que acha a **ordem mais barata** de visitar um conjunto de cidades de avião (não voos isolados), deslizando a janela de datas. Modelado como TSP de custo dependente de data e resolvido com **Held-Karp DP exato** O(2ⁿ·n²) + brute-force como **oráculo de teste**; ingestão idempotente raw→curated (snapshot Parquet/DuckDB) e fallback sintético com proveniência por trecho. Python/FastAPI/DuckDB + React 18/TS/Vite, 95 testes (~99% / 96,8% cobertura), CI/CD e deploy Render+Vercel. Nasceu de uma dor real no meu **intercâmbio em Coimbra** (15 países). · [🔴 Demo ao vivo](https://tripoptimizer-rouge.vercel.app)
-- **[weather-trend-forecasting](https://github.com/Patrickfgf/weather-trend-forecasting)** — Previsão de temperatura *leakage-safe* sobre o Kaggle Global Weather Repository: EDA, detecção de anomalias e ensemble multi-modelo.
-- **[retail-sales-analysis](https://github.com/Patrickfgf/retail-sales-analysis)** · **[ds-salaries-regression](https://github.com/Patrickfgf/ds-salaries-regression)** · **[titanic-analysis](https://github.com/Patrickfgf/titanic-analysis)** — base de ML aplicada (clustering, regressão, classificação).
-
----
-
-## Analytics
-
-<div align="center">
-  <img height="195" src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/cards/stats.svg" alt="Estatisticas do GitHub" />
-  <img height="195" src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/cards/top-langs.svg" alt="Linguagens mais usadas" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/cards/streak.svg" alt="Streak de commits" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Patrickfgf&theme=tokyo-night&hide_border=true&area=true" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Patrickfgf/Patrickfgf/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</div>
-
----
-
-<div align="center">
-  <sub>Transformando dados em decisões — com rigor estatístico, engenharia e clareza.</sub>
-</div>
-
-<!-- profile -->
-
